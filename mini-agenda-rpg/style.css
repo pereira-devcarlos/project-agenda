@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    height: 97vh;
+    background: linear-gradient(#0e4ea1, rgb(51, 121, 153));
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    width: 60%;
+    height: 70vh;
+    background-color: rgba(130, 42, 165, 0.514);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tarefas {
+    padding: 15px 15px;
+}
+
+#campo-tarefa {
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    width: 60%;
+}
+
+#adicionar {
+    border-radius: 5px;
+    padding: 5px;
+    width: 29%;
+}
