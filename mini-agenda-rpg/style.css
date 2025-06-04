@@ -1,67 +1,43 @@
 body {
-    display: flex;
-    height: 97vh;
-    background: linear-gradient(#0e4ea1, rgb(51, 121, 153));
-    justify-content: center;
-    align-items: center;
+    font: normal 12pt Arial;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;         /* Centraliza horizontalmente */
-    justify-content: flex-start; /* Alinha ao topo */
-    width: 60%;
-    height: 70vh;
-    background-color: rgba(130, 42, 165, 0.514);
+    background-color: whitesmoke;
     border-radius: 10px;
+    width: 500px;
+    min-height: 300px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
 }
 
-.add-tarefas {
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo */
-    align-items: center;
-    padding: 15px;
-    width: 90%;
-}
-
-#campo-tarefa {
-    border-radius: 10px;
-    padding: 7px;
-    border: none;
-    width: 75%;
-    height: 15px;
-}
-
-#adicionar {
-    border-radius: 5px;
-    padding: 6px;
-    max-width: 28%;
-    height: 30px;
-}
-
-#lista-tarefas {
-    align-self: flex-start; /* Alinha a lista à esquerda da section */
-    width: 90%;            /* Ajuste conforme necessário */
-    margin-left: 30px;        /* Garante que fique colado à esquerda */
-    list-style: none;         /* Remove os marcadores */
-    padding: 0;               /* Remove o padding padrão */
-    margin-top: 10px;
-}
-
-#lista-tarefas li {
-    background: rgba(255,255,255,0.85);
-    margin-bottom: 10px;
-    padding: 12px 18px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    font-size: 1.1em;
-    color: #190525;
+.task {
     display: flex;
     align-items: center;
-    transition: background 0.2s;
+    padding: 8px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    justify-content: flex-start; /* Garante alinhamento à esquerda */
+    margin-top: 5px;
 }
 
-#lista-tarefas li:hover {
-    background: #e6c5fd;
+#txtTask {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.task button {
+    margin-left: auto; /* Empurra o botão para o canto direito */
+    
 }

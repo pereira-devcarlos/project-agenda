@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Agenda</title>
-    <link rel="stylesheet" href="/mini-agenda-rpg/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Mini Agenda JS</h1>
+    </header>
     <section>
-        <div class="add-tarefas">
-            <input id="campo-tarefa" placeholder="Nova tarefa"/>
-            <button id="adicionar">Adicionar</button>
+        <input type="text" id="buscarTask">
+        <button id="btnBuscar">Buscar</button>
+        <input type="text" id="addTarefa">
+        <button id="btnAdd">Adicionar</button>
+        <div id="campoTarefas">
+            <div class="task">
+                <input type="checkbox" name="task" id="checkTask">
+                <div id="txtTask">Acordar 6h amanhã</div>
+                <button id="btnRemove">Remover</button>
+            </div>
         </div>
-        <ul id="lista-tarefas"></ul>
     </section>
-
-
-    <script src="script.js"></script>
-
-
-    <script src="/mini-agenda-rpg/script.js"></script>
 </body>
 </html>
