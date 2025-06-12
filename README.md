@@ -1,6 +1,6 @@
-# 📘 Projeto: Mini Agenda de Tarefas 🧙‍♂️💼 (Estilo RPG)
+# 📘 Projeto: Mini Agenda de Tarefas 
 
-Este é um projeto de prática em JavaScript puro, criado para consolidar os conhecimentos até a **Fase 3 do roadmap de aprendizado**: Fundamentos, Lógica, Objetos e Arrays. A proposta é desenvolver uma **agenda de tarefas com estilo de missões de RPG**, onde o usuário pode adicionar, visualizar, marcar como concluídas, filtrar e excluir tarefas.
+Este é um projeto de prática em JavaScript puro, criado para consolidar os conhecimentos até a **Fase 3 do roadmap de aprendizado**: Fundamentos, Lógica, Objetos e Arrays. A proposta é desenvolver uma **agenda**, onde o usuário pode adicionar, visualizar, marcar como concluídas, filtrar e excluir tarefas.
 
 ---
 
@@ -50,8 +50,6 @@ const tarefas = []
 | Remover tarefa             | ✅           |
 | Contar tarefas totais      | ✅           |
 | Mostrar tarefas concluídas | ✅           |
-| Estilização com tema RPG   | 🧪 opcional |
-
 ---
 
 ## 📁 Estrutura de Arquivos
